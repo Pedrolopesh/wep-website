@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="mt-10 mb-9 alg-txt-c">Time de desenvolvimento</h1>
+        <h1 class="mt-17 mb-9 alg-txt-c">Time de desenvolvimento</h1>
         <v-divider class="container-custom ac"></v-divider>
         <div class="container-custom ac mt-3">
 

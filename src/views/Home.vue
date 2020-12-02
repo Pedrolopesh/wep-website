@@ -12,8 +12,9 @@
     <CoverSection/>
     <ExplainSection/>
     <ExplainAppSection/>
+    <TecInfoSection/> 
     <TeamSection/>
-    <TecInfoSection/>
+    <FooterSection />
 
 
   </div>
@@ -26,6 +27,7 @@ import ExplainSection from '@/components/ExplainSection.vue'
 import ExplainAppSection from '@/components/ExplainAppSection.vue'
 import TeamSection from '@/components/TeamSection.vue'
 import TecInfoSection from '@/components/TecInfoSection.vue'
+import FooterSection from '@/components/Footer.vue'
 
 export default {
   
@@ -36,6 +38,7 @@ export default {
     ExplainAppSection,
     TeamSection,
     TecInfoSection,
+    FooterSection,
   },
 
   data:() => ({

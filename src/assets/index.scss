@@ -176,48 +176,27 @@ body {
     -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);   
 }
 
-.router-anim-enter-active {
-    animation: coming .25s;
-    animation-delay: .25s;
-    opacity: 0;
-  }
-  .router-anim-leave-active {
-    animation: going .3s;
-  }
-  @keyframes going {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-  }
-  @keyframes coming {
-    from {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-.box-status-success{
-    border: 2px solid #5cb660 !important;
-    border-radius: 5px !important;
-    box-shadow: 1px 4px 7px 1px #5cb660b2 !important;
+.icon-size-30{
+    width: 30px;
 }
-
-.box-status-warning{
-    border: 2px solid #ffa600 !important;
-    border-radius: 5px;
-    box-shadow: 1px 4px 7px 1px #f28500b0 !important;
+.icon-size-40{
+    width: 40px;
 }
-
-.box-status-error{
-    border: 2px solid #ff5252 !important;
-    border-radius: 5px;
-    box-shadow: 1px 4px 7px 1px #ff5252b2 !important;
+.icon-size-50{
+    width: 50px;
+}
+.icon-size-60{
+    width: 60px;
+}
+.icon-size-70{
+    width: 70px;
+}
+.icon-size-80{
+    width: 80px;
+}
+.icon-size-90{
+    width: 90px;
+}
+.icon-size-100{
+    width: 100px;
 }
