@@ -12,6 +12,7 @@
     <CoverSection/>
     <ExplainSection/>
     <ExplainAppSection/>
+    <LocalSection />
     <TecInfoSection/> 
     <TeamSection/>
     <FooterSection />
@@ -26,6 +27,7 @@ import CoverSection from '@/components/CoverSection.vue'
 import ExplainSection from '@/components/ExplainSection.vue'
 import ExplainAppSection from '@/components/ExplainAppSection.vue'
 import TeamSection from '@/components/TeamSection.vue'
+import LocalSection from '@/components/LocalSection.vue'
 import TecInfoSection from '@/components/TecInfoSection.vue'
 import FooterSection from '@/components/Footer.vue'
 
@@ -36,6 +38,7 @@ export default {
     CoverSection,
     ExplainSection,
     ExplainAppSection,
+    LocalSection,
     TeamSection,
     TecInfoSection,
     FooterSection,

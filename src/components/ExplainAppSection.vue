@@ -76,7 +76,8 @@ export default {
             width: 48%; 
     
         @media screen and (max-width:700px) {
-                max-width: 100%;
+            max-width: 100%;
+            width: 100%; 
         }
     }
 

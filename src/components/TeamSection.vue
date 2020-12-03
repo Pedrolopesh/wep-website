@@ -2,7 +2,7 @@
     <div>
         <h1 class="mt-17 mb-9 alg-txt-c">Time de desenvolvimento</h1>
         <v-divider class="container-custom ac"></v-divider>
-        <div class="container-custom ac mt-3">
+        <div class="container-custom ac mt-3 brake-small">
 
                 <div class="d-block ac" v-for="(item, i) in itens" :key="i">
                     <div class="myImage">

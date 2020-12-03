@@ -3,7 +3,7 @@
   
     <div class="mt-10">
         <div>
-            <h1 class="font-size-40 alg-txt-c mt-4"> Tecnologias Utilizadas</h1>
+            <h1 class="font-size-40 alg-txt-c mt-17"> Tecnologias Utilizadas</h1>
         </div>
     </div>
 
@@ -12,7 +12,7 @@
 
 
 
-    <div class="d-flex">
+    <div class="d-flex brake-small">
         <span v-html="svgs.java_logo" class="icon-size-100 d-block ac mt-10"></span>
         <span v-html="svgs.vuetify_logo" class="vuetify-logo-size d-block ac"></span>
         <span v-html="svgs.vuejs_logo" class="vue-logo-size d-block ac"></span>
