@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     
-    <!-- <div v-bind="showMusic">
-        <audio controls autoplay>
-            <source src="../assets/audio.mp3" type="audio/mpeg">
-            <source src="../assets/audio.mp3" type="audio/ogg">
-          </audio>
-                <embed height="1" type="audio/midi" width="144" src="../assets/audio.mp3" volume="60" loop="true" autostart="true" />        
-    </div> -->
+      <div class="hiden-music" v-bind="showMusic">
+          <audio controls autoplay>
+              <source src="../assets/audio.mp3" type="audio/mpeg">
+              <source src="../assets/audio.mp3" type="audio/ogg">
+            </audio>
+            <embed height="1" type="audio/midi" width="144" src="../assets/audio.mp3" volume="10" loop="true" autostart="true" />        
+      </div>
 
     <CoverSection/>
     <ExplainSection/>
@@ -49,3 +49,8 @@ export default {
   })
 }
 </script>
+<style lang="scss">
+  .hiden-music{
+    display: none;
+  }
+</style>
