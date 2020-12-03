@@ -5,7 +5,7 @@
         <div class="one-half-column">
             <h1 class="title-left mt-7 ml-7">Wep.</h1>
             <p class="ml-7">Um aplicativo para compartilhar com amigos e com geral sobre novos eventos, festas, festiváis e muito mais, além de saber o que acontece por ai, você mesmo pode criar seu evento e compartilhar com seus amigos e chamar o pessoa para curtir também, baixe o app e acompanhe todas as novidades dos eventos festas e baladas </p>
-            <a href="https://weparty-app.herokuapp.com/#/Main" target="_blank" class="link"><button class="ml-7 party-button">party!</button></a>
+            <a href="https://wepapp.netlify.app/#/Home" target="_blank" class="link"><button class="ml-7 party-button">party!</button></a>
         </div>
 
         <div class="one-half-column">
